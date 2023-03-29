@@ -1,0 +1,66 @@
+
+/* Header Banner Styles */
+
+.banner{
+    color: #fff;
+    background-size: cover;
+    background-position: center center;
+    object-fit: contain;
+    min-height: 28rem;
+    max-width: 100%;
+    position: relative;
+}
+
+
+.banner-content{
+    padding-top: 8.75rem;
+    padding-left: 1.5rem;
+}
+
+.banner-content .title{
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.banner-description{
+    padding-top: 1rem;
+    font-size: .8rem;
+    max-width: 22rem;
+    padding-right: .5rem;
+}
+
+.banner-button{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    padding: .5rem 2rem;
+    margin-right: 1rem;
+    background-color: rgba(51, 51, 51,0.5);
+    transition: all 0.2s;
+}
+
+.banner-button:hover{
+    color: #000;
+    background-color: #e6e6e6;
+    
+}
+
+/* To give to the banner a fade effect on the bottom */
+
+.banner-fadeBottom{
+    height: 7.4rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37, 0.61),
+        #111
+    );
+    
+    position: absolute;
+    bottom: -0.1rem;
+    left: 0;
+    width: 100%;
+
+}
